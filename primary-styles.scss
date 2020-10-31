@@ -1,7 +1,7 @@
-.first-test {
-    margin: auto;
-    font-style: italic;
-    &__one {
-        display:flex;
+.header-section {
+    margin: 30px auto;
+    text-align: center;
+    &__title {
+        font-family: 'Cormorant', serif;
     }
 }

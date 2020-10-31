@@ -1,9 +1,9 @@
-.first-test {
-  margin: auto;
-  font-style: italic;
+.header-section {
+  margin: 30px auto;
+  text-align: center;
 }
-.first-test__one {
-  display: flex;
+.header-section__title {
+  font-family: "Cormorant", serif;
 }
 
 /*# sourceMappingURL=primary-styles.css.map */
