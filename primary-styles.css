@@ -3,7 +3,42 @@
   text-align: center;
 }
 .header-section__title {
-  font-family: "Playfair Display", serif;
+  font-family: "Bitter", serif;
+}
+
+.main-navigation {
+  display: flex;
+}
+.main-navigation__list {
+  list-style-type: none;
+}
+
+.projects {
+  display: flex;
+  margin: 20px auto;
+  max-width: 1700px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects__item {
+  margin: 20px;
+}
+.projects__item-image {
+  max-width: 600px;
+}
+.projects__details-description {
+  font-family: "Bitter", serif;
+  font-style: italic;
+}
+.projects__details-link {
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.projects__details-link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=primary-styles.css.map */

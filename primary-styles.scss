@@ -2,6 +2,45 @@
     margin: 30px auto;
     text-align: center;
     &__title {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Bitter', serif;
+    }
+}
+
+.main-navigation {
+    display: flex;
+    &__list {
+        list-style-type: none;
+    }
+}
+
+.projects {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+        margin: 20px;
+        &-image {
+            max-width: 600px;
+        }
+    }
+
+    &__details{
+
+        &-description {
+            font-family: 'Bitter', serif;
+            font-style: italic;
+        }
+        &-link{
+            text-decoration: none;
+            font-size: larger;
+            color: black;
+            font-family: 'Open Sans', sans-serif;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
