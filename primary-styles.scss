@@ -1,15 +1,29 @@
 .header-section {
-    margin: 30px auto;
-    text-align: center;
-    &__title {
-        font-family: 'Bitter', serif;
+    display: flex;
+    &__name{
+        margin: 30px auto;
+        text-align: center;
+        &-title {
+            font-family: 'Bitter', serif;
+        }
     }
 }
 
 .main-navigation {
-    display: flex;
+    margin: auto;
     &__list {
         list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        &-link {
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Open Sans', sans-serif;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
 

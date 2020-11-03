@@ -1,16 +1,30 @@
 .header-section {
+  display: flex;
+}
+.header-section__name {
   margin: 30px auto;
   text-align: center;
 }
-.header-section__title {
+.header-section__name-title {
   font-family: "Bitter", serif;
 }
 
 .main-navigation {
-  display: flex;
+  margin: auto;
 }
 .main-navigation__list {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.main-navigation__list-link {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+.main-navigation__list-link:hover {
+  text-decoration: underline;
 }
 
 .projects {
