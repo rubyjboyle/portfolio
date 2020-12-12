@@ -6,7 +6,7 @@
   text-align: center;
 }
 .header-section__name-title {
-  font-family: "Bitter", serif;
+  font-family: "Bebas Neue";
 }
 
 .main-navigation {
@@ -29,8 +29,8 @@
 
 .projects {
   display: flex;
-  margin: 20px auto;
-  max-width: 1700px;
+  margin: 30px auto;
+  max-width: 1900px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -40,19 +40,45 @@
 }
 .projects__item-image {
   max-width: 600px;
+  width: 100%;
+}
+.projects__details {
+  margin-top: 15px;
 }
 .projects__details-description {
-  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
+  margin-top: 5px;
 }
 .projects__details-link {
   text-decoration: none;
   font-size: larger;
+  margin-top: 10px;
   color: black;
   font-family: "Open Sans", sans-serif;
 }
 .projects__details-link:hover {
   text-decoration: underline;
+}
+
+.about-me {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+}
+.about-me__img {
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.about-me__description {
+  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin: 40px auto;
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=primary-styles.css.map */
