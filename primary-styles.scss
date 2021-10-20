@@ -9,7 +9,7 @@
         margin: 30px auto;
         text-align: center;
         &-title {
-            font-family: 'Bebas Neue';
+            font-family: 'Didot';
         }
     }
 }
@@ -75,7 +75,7 @@
         max-width: 500px;
         margin: auto;
         width: 100%;
-        border-radius: 10px;
+        border-radius: 250px 250px 0 0;
     }
     &__description {
         font-size: large;
