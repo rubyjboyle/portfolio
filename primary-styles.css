@@ -70,6 +70,7 @@
   margin: auto;
   text-align: center;
   align-items: center;
+  max-width: 1000px;
 }
 .about-me__img {
   max-width: 500px;
@@ -80,8 +81,7 @@
 .about-me__description {
   font-size: 30px;
   font-family: "big-caslon-fb";
-  margin: 40px auto;
-  max-width: 600px;
+  margin: 40px;
   text-align: left;
 }
 
