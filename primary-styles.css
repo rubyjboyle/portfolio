@@ -85,4 +85,14 @@
   max-width: 500px;
 }
 
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section__img {
+  max-width: 50px;
+}
+
 /*# sourceMappingURL=primary-styles.css.map */
