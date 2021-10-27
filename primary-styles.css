@@ -29,15 +29,15 @@
   text-decoration: underline;
 }
 .projects {
-  display: flex;
   margin: 30px auto;
   max-width: 1900px;
-  flex-direction: row;
   justify-content: center;
 }
 .projects__item {
   margin: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .projects__item-image {
   max-width: 600px;
