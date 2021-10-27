@@ -70,18 +70,17 @@
   display: flex;
   margin: auto;
   text-align: center;
-  flex-direction: column;
+  align-items: center;
 }
 .about-me__img {
   max-width: 500px;
   margin: auto;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 90px 90px 0px 0px;
 }
 .about-me__description {
   font-size: large;
-  font-family: "Open Sans", sans-serif;
-  font-style: italic;
+  font-family: "big-caslon-fb";
   margin: 40px auto;
   max-width: 500px;
 }
