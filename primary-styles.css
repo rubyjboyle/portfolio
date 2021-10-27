@@ -1,7 +1,6 @@
 .body-section {
   background-color: #d6c6bb;
 }
-
 .header-section {
   display: flex;
 }
@@ -12,7 +11,6 @@
 .header-section__name-title {
   font-family: "big-caslon-fb";
 }
-
 .main-navigation {
   margin: auto;
 }
@@ -30,17 +28,16 @@
 .main-navigation__list-link:hover {
   text-decoration: underline;
 }
-
 .projects {
   display: flex;
   margin: 30px auto;
   max-width: 1900px;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
 }
 .projects__item {
   margin: 20px;
+  display: flex;
 }
 .projects__item-image {
   max-width: 600px;
@@ -65,7 +62,6 @@
 .projects__details-link:hover {
   text-decoration: underline;
 }
-
 .about-me {
   display: flex;
   margin: 70px auto;
@@ -86,14 +82,12 @@
   text-align: left;
   font-style: italic;
 }
-
 .footer-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px;
 }
-
 .footer-section__img {
   max-width: 50px;
 }
