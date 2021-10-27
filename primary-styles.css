@@ -45,6 +45,7 @@
 .projects__item-image {
   max-width: 600px;
   width: 100%;
+  border-radius: 10px;
 }
 .projects__details {
   margin-top: 15px;
@@ -67,7 +68,7 @@
 
 .about-me {
   display: flex;
-  margin: auto;
+  margin: 70px auto;
   text-align: center;
   align-items: center;
   max-width: 1000px;
