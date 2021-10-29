@@ -69,7 +69,15 @@
   text-align: center;
   align-items: center;
   max-width: 1000px;
+  flex-direction: column;
 }
+
+@media only screen and (min-width: 768px) {
+  .about-me {
+    flex-direction: row;
+  }
+} 
+
 .about-me__img {
   max-width: 500px;
   margin: auto;
