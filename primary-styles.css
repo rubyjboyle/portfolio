@@ -76,6 +76,13 @@
   width: 100%;
   border-radius: 90px 90px 0px 0px;
 }
+.about-me__img-bck {
+  max-width: 736px;
+  margin: auto;
+  display: flex;
+  margin-bottom: -150px;
+  border-radius: 0 90px;
+}
 .about-me__description {
   font-size: 30px;
   font-family: "big-caslon-fb";
