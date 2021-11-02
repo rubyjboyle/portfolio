@@ -11,6 +11,9 @@
 .header-section__name-title {
   font-family: 'Karla', sans-serif;
 }
+.header-section__name-link {
+  text-decoration: none;
+}
 .main-navigation {
   margin: auto;
 }
