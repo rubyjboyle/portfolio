@@ -13,6 +13,7 @@
 }
 .header-section__name-link {
   text-decoration: none;
+  color: #000000;
 }
 .main-navigation {
   margin: auto;
