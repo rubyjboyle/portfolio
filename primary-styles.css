@@ -121,4 +121,15 @@
   text-align: center;
   font-family: 'Karla', sans-serif;
 }
+
+.project-info {
+  display: flex;
+  margin: auto;
+  font-family: 'Karla', sans-serif;
+}
+
+.project-info__item {
+  display: flex;
+  flex-direction: column;
+}
 /*# sourceMappingURL=primary-styles.css.map */
