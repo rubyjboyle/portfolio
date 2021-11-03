@@ -133,6 +133,7 @@
 .project-info__item {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .project-info__icon {
