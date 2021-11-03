@@ -143,4 +143,12 @@
 .project-info__icon {
   font-size: 50px!important;
 }
+
+.project-image {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+}
 /*# sourceMappingURL=primary-styles.css.map */
