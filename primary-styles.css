@@ -126,10 +126,16 @@
   display: flex;
   margin: auto;
   font-family: 'Karla', sans-serif;
+  text-align: center;
+  justify-content: center;
 }
 
 .project-info__item {
   display: flex;
   flex-direction: column;
+}
+
+.project-info__icon {
+  font-size: 50px!important;
 }
 /*# sourceMappingURL=primary-styles.css.map */
