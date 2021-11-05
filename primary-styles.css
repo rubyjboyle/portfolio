@@ -168,6 +168,7 @@
 .project-profile__img {
   max-width: 800px;
   margin: 20px;
+  border-radius: 20px;
 }
 
 .project-profile__link {
