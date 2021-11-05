@@ -167,5 +167,11 @@
 
 .project-profile__img {
   max-width: 800px;
+  margin: 20px;
+}
+
+.project-profile__link {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
 }
 /*# sourceMappingURL=primary-styles.css.map */
