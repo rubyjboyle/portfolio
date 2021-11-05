@@ -152,4 +152,18 @@
   margin: auto;
   display: flex;
 }
+
+.project-profile {
+  margin: auto;
+  text-align: center;
+}
+
+.project-profile__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-profile__img {
+  max-width: 800px;
+}
 /*# sourceMappingURL=primary-styles.css.map */
