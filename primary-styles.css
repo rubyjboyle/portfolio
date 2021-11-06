@@ -170,6 +170,9 @@
   margin: 20px;
   border-radius: 20px;
 }
+.project-profile__img--mobile {
+  max-width: 300px;
+}
 
 .project-profile__link {
   font-family: 'Karla', sans-serif;
