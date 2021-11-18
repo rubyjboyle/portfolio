@@ -1,11 +1,29 @@
 .body-section {
   background-color: #d6c6bb;
+  font-family: 'Karla', sans-serif;
 }
 .header-section {
   display: flex;
+  background: #c5a48e;
 }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .header-section__name {
-  margin: 30px auto;
+  margin: 15px auto;
   text-align: center;
 }
 .header-section__name-title {
@@ -88,13 +106,16 @@
   width: 100%;
   border-radius: 90px 90px 0px 0px;
 }
+
 .about-me__img-bck {
   max-width: 736px;
   margin: auto;
   display: flex;
   margin-bottom: -150px;
   border-radius: 0 90px;
+  margin-top: 60px;
 }
+
 .about-me__description {
   font-size: 30px;
   font-family: 'Karla', sans-serif;
@@ -115,23 +136,27 @@
 
 .project-name {
   text-align: center;
-  font-family: 'Karla', sans-serif;
   font-weight: normal;
 }
 .project-subtitle {
   text-align: center;
-  font-family: 'Karla', sans-serif;
   font-weight: normal;
   font-style: italic;
 }
 
 .project-info {
   display: flex;
-  margin: 40px auto;
-  font-family: 'Karla', sans-serif;
+  margin: 120px auto;
   text-align: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 800px) {
+  .project-info{
+    flex-direction: column;
+    align-items: center;
+  }
+} 
 
 .project-info__item {
   display: flex;
@@ -170,6 +195,13 @@
   margin: 20px;
   border-radius: 20px;
 }
+
+.project-profile__img-wrapper {
+  display: flex;
+} 
+.project-profile__img--small {
+  max-width: 400px;
+}
 .project-profile__img--mobile {
   max-width: 300px;
 }
@@ -177,5 +209,36 @@
 .project-profile__link {
   font-family: 'Karla', sans-serif;
   color: #000000;
+}
+
+.resume-block {
+  margin: auto;
+  text-align: center;
+}
+
+.project-button {
+  text-decoration: none;
+  margin: 15px;
+  padding: 15px;
+  background-color: #5c6a2f;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.project-button:hover {
+  background-color: #3f4820;
+  border-radius: 0;
+}
+
+.project-intro__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /*# sourceMappingURL=primary-styles.css.map */

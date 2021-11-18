@@ -15,12 +15,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;1,400&display=swap" rel="stylesheet">
+  <!-- <script src="sticky-header.js"></script> -->
 </head>
 
 <body class="body-section">
 
-  <div class="header-section">
-    <div></div>
+  <div class="header-section" id="myHeader">
+    
       <div class="header-section__name">
         <a class="header-section__name-link" href="index.html">
           <h1 class="header-section__name-title">Ruby Boyle</h1>
@@ -37,12 +38,51 @@
     </nav>
 
   </div>
-
+<div class="content">
       <img class="about-me__img-bck" alt="" src="images/Screen Shot 2021-10-28 at 6.24.28 PM.png">
       <section class="about-me">
         <img class="about-me__img" alt="Portrait of Ruby" src="images/IMG_8215.jpg">
         <p class="about-me__description">Hello I'm Ruby! I am currently a Front End UI Engineer based out of San Francisco. I enjoy designing and developing user friendly accessible experiences.</p>
       </section>
+
+
+      <section class="projects">
+
+        <div class="projects__item">
+          <div class="projects__details">
+            <a class="projects__details-link" href="/project-4.html">Foundation Match Quiz | Motives Cosmetics</a>
+            <p class="projects__details-description">A match quiz with an algorithm to narrow down the perfect foundation shade.</p>
+          </div>
+          <img class="projects__item-image" src="images/Project-4.png">
+        </div>
+
+        <div class="projects__item">
+          <img class="projects__item-image" src="images/Project-3.png">
+          <div class="projects__details">
+            <a class="projects__details-link" href="/project-3.html">Shipment Tracking | Track your SHOP.COM package</a>
+            <p class="projects__details-description">Shipment Tracking using UPS API for Market America orders.</p>
+          </div>
+        </div>
+
+        <div class="projects__item">
+          <div class="projects__details">
+            <a class="projects__details-link" href="/project-1.html">Exclusive Brands | Branded Informational Pages</a>
+            <p class="projects__details-description">Developed modules for a cross branding solution.</p>
+          </div>
+          <img class="projects__item-image" src="images/Project-1.png">
+        </div>
+      
+        <div class="projects__item">
+          <img class="projects__item-image" src="images/Project-2.png">
+          <div class="projects__details">
+            <a class="projects__details-link" href="/project-2.html">Wellness & Pet Advantage | Insurance Program</a>
+            <p class="projects__details-description">Health Insurance Program Guide and Sign Up Form.</p>
+          </div>
+        </div>
+      
+      </section>
+
+
 
       <!-- create template to plug in each project content -->
       <section class="footer-section">
@@ -56,5 +96,21 @@
           <img class="footer-section__img" src="images/github.png">
         </a>
       </section>
+    </div>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
 </body>
 </html>

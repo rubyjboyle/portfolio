@@ -20,28 +20,36 @@
 
 <body class="body-section">
 
-  <div class="header-section">
-    <div></div>
-      <div class="header-section__name">
-        <h1 class="header-section__name-title">Ruby Boyle</h1>
-      </div>
+  <div class="header-section" id="myHeader">
     
-    <nav class="main-navigation">
-      <ul class="main-navigation__list">
-        <li><a class="main-navigation__list-link" href="index.html">Home</a></li>
-        <li><a class="main-navigation__list-link" href="/portfolio.html">Projects</a></li>
-        <li><a class="main-navigation__list-link" href="/about.html">About</a></li>
-        <li><a class="main-navigation__list-link" href="/resume.html">Resume</a></li>
-      </ul>
-    </nav>
+    <div class="header-section__name">
+      <a class="header-section__name-link" href="index.html">
+        <h1 class="header-section__name-title">Ruby Boyle</h1>
+      </a>
+    </div>
+  
+  <nav class="main-navigation">
+    <ul class="main-navigation__list">
+      <li><a class="main-navigation__list-link" href="index.html">Home</a></li>
+      <li><a class="main-navigation__list-link" href="/portfolio.html">Projects</a></li>
+      <li><a class="main-navigation__list-link" href="/about.html">About</a></li>
+      <li><a class="main-navigation__list-link" href="/resume.html">Resume</a></li>
+    </ul>
+  </nav>
 
+</div>
+
+<div class="content">
+<section class="project">
+  <div class="project-intro__header"> 
+    <h2 class="project-name">Foundation Match Quiz | Motives Cosmetics</h2>
+    <h3 class="project-subtitle">A match quiz with an algorithm to narrow down the perfect foundation shade.</h3>
+    <img class="project-image" src="images/Project-4.png">
+    <a class="project-button" target="_blank" href="https://www.shop.com/flawless-quiz">Link to Live Project
+      <span class="material-icons">launch</span>
+    </a>
   </div>
 
-   <!-- scroll through projects -->
-<section class="project">
-    <h2 class="project-name">Exclusive Brands | Branded Informational Pages</h2>
-    <h3 class="project-subtitle">Developed modules for a cross branding solution.</h3>
-    <img class="project-image" src="images/Project-1.png">
    
 
 
@@ -50,16 +58,13 @@
       <div class="project-info__item"> 
         <span class="project-info__icon material-icons">error</span>
         <p>Problem</p>
-        <p>The problem for Market America's Exclusive Brands was brand recognition and knowledge. 
-          There was not a centeralized place to learn about these products to build brand awarness and loyalty.</p>
+        <p>With the launch of the new Motives Cosmetics Flawless Face Stick Foundation there was not a way to virtually find your color match. </p>
       </div>
 
       <div class="project-info__item">
         <span class="project-info__icon material-icons">design_services</span>
         <p>My Role</p>
-        <p>My roles for this project were product designer, UX writer, and front end developer. 
-          I gathered all the content and assets for each brand then created mockups to go through design and legal approval. 
-          I also created reusable code modules for the UI so each page could be built with the same 10 blocks of code.</p>
+        <p>My roles for this project consisted of UX designer and front end developer. I designed the concepts for each quiz question page, how a user navigates through the quiz, and getting their final result. I also coded the HTML SCSS and JavaScript for the quiz as well.</p>
       </div>
 
       <div class="project-info__item">
@@ -73,8 +78,7 @@
         <span class="project-info__icon material-icons">check_circle_outline</span>
         <p>Outcome</p>
         <p> 
-          The outcome was an improvement on the page bounce rate by 50% for several brands; Isotonix, Motives Cosmetics, Ultimate Aloe. 
-          Then by 45% for other brands. This lead to an increase in revenue as well by making $10k in the first month for the Isotonix brand.
+          The outcome of the foundation quiz was
         </p>
       </div>
 
@@ -83,18 +87,16 @@
 
   <div class="project-profile">
     <div class="project-profile__item">
-        <img class="project-profile__img" src="images/brands-probiotics.jpg">
-        <a class="project-profile__link" href="https://www.shop.com/info/probiotics-10">link to live site</a>
+      <p class="project-profile__item-text">I began this project by conceptualizing rough sketches of each type of quiz page based off of the business requirements.</p>
+      <div class="project-profile__img-wrapper">
+          <img class="project-profile__img project-profile__img--small" src="images/sketch-1.png">
+          <img class="project-profile__img project-profile__img--small" src="images/sketch-2.png">
+      </div>
     </div>
 
     <div class="project-profile__item">
-        <img class="project-profile__img" src="images/brands-lumi.jpg">
-        <a class="project-profile__link" href="https://www.shop.com/info/lumiere-de-vie">link to live site</a>
-    </div>
-
-    <div class="project-profile__item">
-        <img class="project-profile__img" src="images/brands-motives.jpg">
-        <a class="project-profile__link"href="https://www.shop.com/info/motives-cosmetics">link to live site</a>
+        <img class="project-profile__img" src="images/match-start-desktop.png">
+        <p>The landing page of the quiz.</p>
     </div>
   </div>
 
@@ -112,5 +114,23 @@
       <img class="footer-section__img" src="images/github.png">
     </a>
   </section>
+
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+  
 </body>
 </html>
