@@ -180,7 +180,7 @@
 
 .project-info__icon {
   font-size: 50px!important;
-  color: #5c6a2f;
+  color: #c5a48e;
 }
 
 .project-image {
@@ -233,7 +233,7 @@
   text-decoration: none;
   margin: 15px;
   padding: 15px;
-  background-color: #5c6a2f;
+  background-color: #c5a48e;
   color: #ffffff;
   border-radius: 10px;
   font-family: 'Karla', sans-serif;
@@ -244,7 +244,7 @@
 }
 
 .project-button:hover {
-  background-color: #3f4820;
+  background-color: #c5a48f;
   border-radius: 0;
 }
 
