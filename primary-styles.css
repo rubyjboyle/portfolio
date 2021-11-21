@@ -61,6 +61,12 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  .projects__item {
+    flex-direction: column;
+  }
+} 
 .projects__item-image {
   max-width: 600px;
   width: 100%;
