@@ -5,10 +5,13 @@
 .header-section {
   display: flex;
   background: #c5a48e;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
 
 .content {
-  padding: 16px;
+  padding: 40px;
 }
 
 .sticky {
