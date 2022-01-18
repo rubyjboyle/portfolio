@@ -30,10 +30,11 @@
   text-align: center;
 }
 .header-section__name-title {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: #ffffff;
 }
 .header-section__name-link {
+  font-family: 'Playfair Display', serif;
   text-decoration: none;
   color: #ffffff;
 }
