@@ -4,7 +4,7 @@
 }
 .header-section {
   display: flex;
-  background: #c5a48e;
+  background: #5E6A5B;
   top: 0;
   width: 100%;
   left: 0;
@@ -31,10 +31,11 @@
 }
 .header-section__name-title {
   font-family: 'Karla', sans-serif;
+  color: #ffffff;
 }
 .header-section__name-link {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 .main-navigation {
   margin: auto;
