@@ -48,7 +48,7 @@
 .main-navigation__list-link {
   margin: 5px;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   font-family: 'Karla', sans-serif;
 }
 .main-navigation__list-link:hover {
@@ -121,7 +121,7 @@
   max-width: 500px;
   margin: auto;
   width: 100%;
-  border-radius: 90px 90px 0px 0px;
+  border-radius: 230px 230px 0px 0px;
 }
 
 .about-me__img-bck {
