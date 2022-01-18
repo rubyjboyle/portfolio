@@ -117,6 +117,14 @@
     flex-direction: row;
   }
 } 
+.about-me__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__text-name {
+  font-family: 'Playfair Display', serif;
+}
 
 .about-me__img {
   max-width: 500px;
