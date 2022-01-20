@@ -127,6 +127,14 @@
   font-size: 70px;
   text-align: left;
   margin-left: -108px;
+  margin-bottom: -40px;
+}
+
+.about-me__text-description {
+  font-family: 'Bebas Neue', san serif;
+  font-size: 70px;
+  text-align: left;
+  margin-left: -108px;
 }
 
 .about-me__img {
