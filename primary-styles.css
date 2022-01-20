@@ -127,7 +127,8 @@
   font-size: 70px;
   text-align: left;
   margin-left: -108px;
-  margin-bottom: -30px;
+  margin-bottom: -15px;
+  line-height: 75px;
 }
 
 .about-me__text-description {
