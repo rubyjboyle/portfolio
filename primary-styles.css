@@ -131,12 +131,25 @@
   line-height: 75px;
 }
 
+@media only screen and (min-width: 768px) {
+  .about-me__text-name{
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+} 
+
 .about-me__text-description {
   font-family: 'Bebas Neue', san serif;
   font-size: 30px;
   text-align: left;
   margin-left: -108px;
 }
+
+@media only screen and (min-width: 768px) {
+  .about-me__text-description{
+    margin-left: 0;
+  }
+} 
 
 .about-me__img {
   max-width: 500px;
