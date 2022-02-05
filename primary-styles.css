@@ -56,10 +56,11 @@
   text-decoration: underline;
 }
 .projects {
-  margin: 30px auto;
+  margin: 130px auto;
   max-width: 1900px;
   justify-content: center;
 }
+
 .projects__item {
   margin: 20px;
   display: flex;
@@ -115,7 +116,7 @@
 
 .landing-intro {
   display: flex;
-  margin: 70px auto;
+  margin: 130px auto;
   text-align: center;
   align-items: center;
   max-width: 1140px;
