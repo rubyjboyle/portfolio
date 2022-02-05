@@ -111,7 +111,6 @@
   align-items: center;
   max-width: 1000px;
   flex-direction: column;
-  margin: 20px;
 }
 
 .landing-intro {
@@ -131,6 +130,7 @@
 .about-me__text {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .about-me__text-info {
