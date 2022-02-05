@@ -110,6 +110,16 @@
   align-items: center;
   max-width: 1000px;
   flex-direction: column;
+  margin: 20px;
+}
+
+.landing-intro {
+  display: flex;
+  margin: 70px auto;
+  text-align: center;
+  align-items: center;
+  max-width: 1000px;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
