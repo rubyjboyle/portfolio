@@ -122,21 +122,17 @@
   flex-direction: column;
 }
 
+.about-me__text-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me__text-name {
   font-family: 'Playfair Display', serif;
   font-size: 70px;
   text-align: left;
-  margin-left: -108px;
-  margin-bottom: -15px;
   line-height: 75px;
 }
-
-@media only screen and (min-width: 768px) {
-  .about-me__text-name{
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-} 
 
 .about-me__text-description {
   font-family: 'Bebas Neue', san serif;
