@@ -120,7 +120,6 @@
 .about-me__text {
   display: flex;
   flex-direction: column;
-  margin: 20px;
 }
 
 .about-me__text-info {
