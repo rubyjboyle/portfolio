@@ -130,16 +130,14 @@
 
 .about-me__text-name {
   font-family: 'Playfair Display', serif;
-  font-size: 70px;
+  font-size: 65px;
   text-align: left;
-  line-height: 75px;
+  margin: 0;
 }
 
 .about-me__text-description {
-  font-family: 'Bebas Neue', san serif;
   font-size: 30px;
   text-align: left;
-  margin-left: -108px;
 }
 
 @media only screen and (min-width: 768px) {
