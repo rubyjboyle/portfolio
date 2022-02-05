@@ -125,6 +125,7 @@
 .about-me__text-info {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .about-me__text-name {
