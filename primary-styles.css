@@ -118,7 +118,7 @@
   margin: 70px auto;
   text-align: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1140px;
   flex-direction: column;
 }
 
@@ -177,12 +177,14 @@
   margin: 40px;
   text-align: left;
 }
+
 .footer-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 40px;
 }
+
 .footer-section__img {
   max-width: 50px;
   padding: 10px;
@@ -192,7 +194,7 @@
   margin: auto;
   text-align: left;
   font-size: 25px;
-  max-width: 1000px;
+  max-width: 1140px;
 }
 
 .project-name {
@@ -270,11 +272,6 @@
 .project-profile__link {
   font-family: 'Karla', sans-serif;
   color: #000000;
-}
-
-.resume-block {
-  margin: auto;
-  text-align: center;
 }
 
 .project-button {
