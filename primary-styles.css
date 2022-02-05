@@ -181,8 +181,9 @@
 
 .work-title {
   margin: auto;
-  text-align: center;
+  text-align: left;
   font-size: 25px;
+  max-width: 1000px;
 }
 
 .project-name {
