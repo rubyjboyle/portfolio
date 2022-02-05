@@ -179,6 +179,12 @@
   padding: 10px;
 }
 
+.work-title {
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}
+
 .project-name {
   text-align: center;
   font-weight: normal;
