@@ -127,6 +127,7 @@
     flex-direction: row;
   }
 } 
+
 .about-me__text {
   display: flex;
   flex-direction: column;
