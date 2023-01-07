@@ -1,13 +1,11 @@
-.body-section {
-  background-color: #FEF4EA;
-  font-family: 'Karla', sans-serif;
-}
+
 .header-section {
   display: flex;
-  background: #5E6A5B;
+  background: #ffffff;
   top: 0;
   width: 100%;
   left: 0;
+  border-bottom: 1px solid #000000;
 }
 
 .content {
