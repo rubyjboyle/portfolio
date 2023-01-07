@@ -52,6 +52,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.main-navigation__list-button {
+  margin: auto;
+  
+}
+
 .main-navigation__list-link:hover {
   text-decoration: underline;
 }
