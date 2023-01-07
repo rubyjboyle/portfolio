@@ -27,13 +27,16 @@
   margin: 10px auto;
   text-align: center;
 }
+
 .header-section__name-title {
   font-family: 'Bodoni Moda', serif;
 }
+
 .header-section__name-link {
-  font-family: 'Playfair Display', serif;
+
   text-decoration: none;
 }
+
 .main-navigation {
   margin: auto;
 }
@@ -45,7 +48,7 @@
 .main-navigation__list-link {
   margin: 5px;
   text-decoration: none;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .main-navigation__list-link:hover {
   text-decoration: underline;
