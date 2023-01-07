@@ -54,7 +54,8 @@
 
 .main-navigation__list-button {
   margin: auto;
-  
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-navigation__list-link:hover {
