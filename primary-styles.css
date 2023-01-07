@@ -63,6 +63,22 @@
   text-decoration: underline;
 }
 
+.second-section {
+  display: flex;
+}
+
+.second-section__img {
+  max-width: 500px;
+  border-radius: 60px;
+  border: 5px solid #B9D1E6;
+}
+
+@media only screen and (max-width: 1000px) {
+  .second-section {
+    flex-direction: column;
+  }
+} 
+
 .projects {
   margin: 130px auto;
   max-width: 1900px;
