@@ -65,11 +65,15 @@
 
 .second-section {
   display: flex;
+  max-width: 1200px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .second-section__img {
   max-width: 500px;
-  border-radius: 60px;
+  border-radius: 250px;
   border: 5px solid #B9D1E6;
 }
 
