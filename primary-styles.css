@@ -82,11 +82,13 @@
 .second-section__text-intro {
   font-family: 'Bodoni Moda', serif;
   font-weight: bold;
+  margin: 0;
 }
 
 .second-section__text-title {
   font-family: 'Bodoni Moda', serif;
   font-style: italic;
+  margin: 0;
 }
 
 .second-section__img {
