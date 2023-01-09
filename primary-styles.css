@@ -108,8 +108,17 @@
 
 .third-section {
   background-image: url(images/feet.jpg);
+  background-size: 100%;
 }
 
+.third-section__text {
+  font-size: 70px;
+  padding: 150px;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  font-family: 'Bodoni Moda', serif;
+}
 
 
 
