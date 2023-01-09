@@ -71,6 +71,20 @@
   justify-content: space-between;
 }
 
+.second-section__text {
+  font-size: 50px;
+}
+
+.second-section__text-intro {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.second-section__text-title {
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+}
+
 .second-section__img {
   max-width: 500px;
   border-radius: 250px;
