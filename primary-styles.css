@@ -342,14 +342,28 @@
 }
 /*# sourceMappingURL=primary-styles.css.map */
 
+
+
 /* footer section */
 
 .footer-section {
   background-color: #A56E4A;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.footer-section__name {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 30px;
+}
+
+.footer-section__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
