@@ -106,31 +106,19 @@
   }
 } 
 
-.projects {
-  margin: 130px auto;
-  max-width: 1900px;
-  justify-content: center;
+.third-section {
+  background-image: url(images/feet.jpg);
 }
 
-.projects__item {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-@media only screen and (max-width: 1000px) {
-  .projects__item {
-    flex-direction: column;
-  }
-} 
 
-@media only screen and (max-width: 1000px) {
-  .projects__item--reverse {
-    flex-direction: column-reverse;
-  }
-} 
 
+
+
+
+
+
+/* old */
 .projects__item-image {
   max-width: 600px;
   width: 100%;
