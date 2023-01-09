@@ -366,6 +366,13 @@
   justify-content: space-between;
 }
 
+.footer-section__content-info {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 .footer-section__img {
   max-width: 50px;
