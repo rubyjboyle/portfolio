@@ -229,17 +229,7 @@
   text-align: left;
 }
 
-.footer-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px;
-}
 
-.footer-section__img {
-  max-width: 50px;
-  padding: 10px;
-}
 
 .work-title {
   margin: auto;
@@ -355,3 +345,23 @@
   text-align: left;
 }
 /*# sourceMappingURL=primary-styles.css.map */
+
+/* footer section */
+
+.footer-section {
+  background-color: #A56E4A;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.footer-section__title {
+  
+}
+
+.footer-section__img {
+  max-width: 50px;
+  padding: 10px;
+}
