@@ -109,6 +109,8 @@
 .third-section {
   background-image: url(images/feet.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .third-section__text {
