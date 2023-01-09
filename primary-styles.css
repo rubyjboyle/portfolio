@@ -373,6 +373,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.footer-section__content-link {
+  padding-right: 40px;
+}
+
 
 .footer-section__img {
   max-width: 50px;
