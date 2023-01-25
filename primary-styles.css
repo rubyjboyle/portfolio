@@ -288,6 +288,10 @@
   max-width: 200px;
 }
 
+.projects-section__explore-img--large {
+  max-width: 300px;
+}
+
 .projects-section__explore-name {
   font-family: 'Karla', sans-serif;
   margin: 20px;
