@@ -393,6 +393,13 @@
   padding-top: 50px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .footer-section__content-info  {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+} 
+
 .footer-section__content-link {
   padding-right: 40px;
   color: #ffffff;
