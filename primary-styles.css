@@ -406,6 +406,12 @@
   color: #ffffff;
 }
 
+@media only screen and (max-width: 1000px) {
+  .footer-section__content-link  {
+    padding-right: 0;
+  }
+} 
+
 .footer-section__img {
   max-width: 50px;
   padding: 10px;
