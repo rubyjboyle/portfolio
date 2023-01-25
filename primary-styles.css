@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 768px) {
   .header-section__name  {
-    margin: 0;
+    margin: 20px;
     text-align: left;
     margin-left: 10px;
   }
