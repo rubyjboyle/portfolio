@@ -255,12 +255,21 @@
   color: #ffffff;
 }
 
+.projects-section__title--black {
+  color: #000000;
+}
+
+
 .projects-section__subtitle {
   font-family: 'Bodoni Moda', serif;
   font-style: italic;
   font-size: 40px;
   margin-top: 0;
   color: #ffffff;
+}
+
+.projects-section__subtitle--black {
+  color: #000000;
 }
 
 .projects-section__explore {
@@ -286,6 +295,9 @@
   color: #ffffff;
 }
 
+.projects-section__explore-name--black {
+  color: #000000;
+}
 
 
 
