@@ -244,6 +244,15 @@
   background-color: #B9D1E6;
 }
 
+.projects-section__title {
+  font-family: 'Bodoni Moda', serif;
+}
+
+.projects-section__subtitle {
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic;
+}
+
 .projects-section__explore {
   display: flex;
   justify-content: center;
