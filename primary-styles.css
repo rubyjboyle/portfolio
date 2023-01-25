@@ -31,6 +31,7 @@
   .header-section__name  {
     margin: 0;
     text-align: left;
+    margin-left: 3px;
   }
 } 
 
