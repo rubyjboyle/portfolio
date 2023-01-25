@@ -230,8 +230,6 @@
   text-align: left;
 }
 
-
-
 .work-title {
   margin: auto;
   text-align: left;
@@ -239,113 +237,10 @@
   max-width: 1140px;
 }
 
-.project-name {
-  text-align: center;
-  font-weight: normal;
-}
-.project-subtitle {
-  text-align: center;
-  font-weight: normal;
-  font-style: italic;
-}
-
-.project-info {
-  display: flex;
-  margin: 120px auto;
-  text-align: center;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 800px) {
-  .project-info{
-    flex-direction: column;
-    align-items: center;
-  }
-} 
-
-.project-info__item {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  max-width: 300px;
-}
-
-.project-info__icon {
-  font-size: 50px!important;
-  color: #c5a48e;
-}
-
-.project-image {
-  max-width: 600px;
-  width: 100%;
-  border-radius: 10px;
-  margin: auto;
+.projects-section {
   display: flex;
 }
 
-.project-profile {
-  margin: auto;
-  text-align: center;
-}
-
-.project-profile__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
-
-.project-profile__img {
-  max-width: 800px;
-  margin: 20px;
-  border-radius: 20px;
-}
-
-.project-profile__img-wrapper {
-  display: flex;
-} 
-.project-profile__img--small {
-  max-width: 400px;
-}
-.project-profile__img--mobile {
-  max-width: 300px;
-}
-
-.project-profile__link {
-  font-family: 'Karla', sans-serif;
-  color: #000000;
-}
-
-.project-button {
-  text-decoration: none;
-  margin: 15px;
-  padding: 15px;
-  background-color: #c5a48e;
-  color: #ffffff;
-  border-radius: 10px;
-  font-family: 'Karla', sans-serif;
-  cursor: pointer;
-  align-items: center;
-  display: flex;
-  font-weight: bold;
-}
-
-.project-button:hover {
-  background-color: #c5a48f;
-  border-radius: 0;
-}
-
-.project-intro__header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-profile__item-list {
-  text-align: left;
-}
-/*# sourceMappingURL=primary-styles.css.map */
 
 
 
