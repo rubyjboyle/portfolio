@@ -75,7 +75,7 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .main-navigation__list-button  {
     font-size: 50px;
   }
