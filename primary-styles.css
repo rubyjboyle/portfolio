@@ -272,6 +272,12 @@
   max-width: 200px;
 }
 
+.projects-section__explore-name {
+  font-family: 'Karla', sans-serif;
+  margin: 10px;
+  font-size: 30px;
+}
+
 
 
 
