@@ -246,11 +246,13 @@
 
 .projects-section__title {
   font-family: 'Bodoni Moda', serif;
+  font-size: 30px;
 }
 
 .projects-section__subtitle {
   font-family: 'Bodoni Moda', serif;
   font-style: italic;
+  font-size: 25px;
 }
 
 .projects-section__explore {
