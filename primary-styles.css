@@ -245,6 +245,7 @@
 
 .projects-section__explore {
   display: flex;
+  justify-content: center;
 }
 
 
