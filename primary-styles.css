@@ -185,6 +185,8 @@
   flex-direction: column;
   text-align: left;
   margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .about-me__text-title {
