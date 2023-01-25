@@ -71,6 +71,12 @@
   color: #000000;
 }
 
+@media only screen and (max-width: 1000px) {
+  .main-navigation__list-link {
+    font-size: 20px;
+  }
+} 
+
 .main-navigation__list-button {
   margin: auto;
   text-decoration: none;
