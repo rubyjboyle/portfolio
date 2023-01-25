@@ -247,6 +247,7 @@
 .projects-section__title {
   font-family: 'Bodoni Moda', serif;
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 .projects-section__subtitle {
