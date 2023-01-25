@@ -241,12 +241,19 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #B9D1E6;
 }
 
 .projects-section__explore {
   display: flex;
   justify-content: center;
 }
+
+.projects-section__explore-item {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 
