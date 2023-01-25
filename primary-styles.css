@@ -361,6 +361,13 @@
   padding: 50px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .footer-section  {
+    padding: 15px;
+  }
+} 
+
+
 .footer-section__name {
   font-family: 'Bodoni Moda', serif;
   font-size: 30px;
@@ -371,6 +378,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 1000px) {
+  .footer-section__content  {
+    flex-direction: column;
+  }
+} 
 
 .footer-section__content-info {
   display: flex;
