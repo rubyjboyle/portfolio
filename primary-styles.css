@@ -59,6 +59,8 @@
 @media only screen and (max-width: 1000px) {
   .main-navigation__list {
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 } 
 
@@ -148,6 +150,12 @@
   font-family: 'Bodoni Moda', serif;
 }
 
+@media only screen and (max-width: 1000px) {
+  .third-section__text  {
+    font-size: 40px;
+    padding: 17px;
+  }
+} 
 
 
 
