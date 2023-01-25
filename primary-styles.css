@@ -191,7 +191,7 @@
   font-family: 'Bodoni Moda', serif;
   font-size: 65px;
   text-align: left;
-  margin: 0;
+  margin: 10px;
 }
 
 .about-me__text-description {
@@ -209,6 +209,8 @@
   max-width: 500px;
   margin: auto;
   width: 100%;
+  border-radius: 250px;
+  border: 5px solid #A56E4A;
 }
 
 .about-me__img-bck {
