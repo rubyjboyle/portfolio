@@ -398,6 +398,7 @@
   .footer-section__content-info  {
     font-size: 10px;
     padding-top: 10px;
+    flex-direction: column;
   }
 } 
 
