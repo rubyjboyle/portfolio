@@ -271,6 +271,12 @@
   border: 5px solid #A56E4A;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-me__img {
+    max-width: 300px;
+  }
+} 
+
 .about-me__background{
   background-image: url(images/about-me-bottom.jpg);
   background-size: 100%;
