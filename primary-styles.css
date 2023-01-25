@@ -285,6 +285,12 @@
   padding: 350px;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-me__background {
+    padding: 120px;
+  }
+} 
+
 .about-me__description {
   font-size: 30px;
   font-family: 'Karla', sans-serif;
