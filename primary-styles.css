@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 1000px) {
   .main-navigation__list-link {
-    font-size: 20px;
+    font-size: 25px;
   }
 } 
 
@@ -108,6 +108,12 @@
 .second-section__text {
   font-size: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  .second-section__text  {
+   font-size: 25px;
+  }
+} 
 
 .second-section__text-intro {
   font-family: 'Bodoni Moda', serif;
