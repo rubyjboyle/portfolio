@@ -83,7 +83,7 @@
 
 @media only screen and (max-width: 700px) {
   .main-navigation__list-button  {
-    font-size: 20px;
+    display: none;
   }
 } 
 
