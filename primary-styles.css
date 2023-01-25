@@ -215,13 +215,11 @@
   border: 5px solid #A56E4A;
 }
 
-.about-me__img-bck {
-  max-width: 736px;
-  margin: auto;
-  display: flex;
-  margin-bottom: -150px;
-  border-radius: 0 90px;
-  margin-top: 60px;
+.about-me__background{
+  background-image: url(images/about-me-bottom.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about-me__description {
