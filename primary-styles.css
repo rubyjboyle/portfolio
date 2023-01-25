@@ -261,8 +261,12 @@
 .projects-section__explore-item {
   display: flex;
   flex-direction: column;
+  margin: 50px;
 }
 
+.projects-section__explore-img {
+  max-width: 200px;
+}
 
 
 
