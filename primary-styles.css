@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 768px) {
   .header-section__name  {
-    margin: 50px;
+    margin: 0;
   }
 } 
 
@@ -79,7 +79,7 @@
 
 @media only screen and (max-width: 700px) {
   .main-navigation__list-button  {
-    font-size: 80px;
+    font-size: 20px;
   }
 } 
 
@@ -296,6 +296,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 700px) {
+  .projects-section__explore  {
+    flex-direction: column;
+  }
+} 
 
 .projects-section__explore-item {
   display: flex;
