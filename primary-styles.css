@@ -39,6 +39,7 @@
 .main-navigation {
   margin: auto;
 }
+
 .main-navigation__list {
   list-style-type: none;
   display: flex;
@@ -371,12 +372,12 @@
   align-items: center;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
 }
 
 .footer-section__content-link {
   padding-right: 40px;
 }
-
 
 .footer-section__img {
   max-width: 50px;
