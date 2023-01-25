@@ -120,6 +120,11 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 1000px) {
+  .second-section__img {
+    max-width: 250px;
+  }
+} 
 
 @media only screen and (max-width: 1000px) {
   .second-section {
