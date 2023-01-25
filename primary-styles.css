@@ -306,6 +306,7 @@
 
 .projects-section__explore-img {
   max-width: 200px;
+  width: 100%;
 }
 
 .projects-section__explore-img--large {
