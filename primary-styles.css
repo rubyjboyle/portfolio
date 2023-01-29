@@ -169,6 +169,10 @@
   font-family: 'Bodoni Moda', serif;
 }
 
+.third-section__text--padding {
+  padding: 0;
+}
+
 @media only screen and (max-width: 1000px) {
   .third-section__text  {
     font-size: 40px;
