@@ -173,6 +173,11 @@
   padding: 0;
 }
 
+.third-section__text--subtitle {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 1000px) {
   .third-section__text  {
     font-size: 40px;
@@ -429,7 +434,7 @@
 }
 
 .class-content__text{
-  font-size: 25px;
+  font-size: 20px;
   max-width: 200px;
   text-align: center;
   color: #000000;
