@@ -406,7 +406,11 @@
 .course-description__text {
   max-width: 600px;
   margin: auto;
+}
 
+.course-description__link {
+  color: white;
+  font-size: 20px;
 }
 
 /* uni projects */
