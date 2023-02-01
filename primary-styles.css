@@ -451,6 +451,7 @@
   margin: 120px auto;
   text-align: center;
   justify-content: center;
+  font-family: 'Karla', sans-serif;
 }
 @media only screen and (max-width: 800px) {
   .project-info{
