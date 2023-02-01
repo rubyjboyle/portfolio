@@ -441,6 +441,10 @@
   color: #000000;
 } 
 
+
+
+
+
 /* shop projects */
 .project-info {
   display: flex;
@@ -462,11 +466,14 @@
 }
 .project-info__icon {
   font-size: 50px!important;
-  color: #c5a48e;
+  color: #A56E4A;
 }
 
-/* footer section */
 
+
+
+
+/* footer section */
 .footer-section {
   background-color: #A56E4A;
   color: #ffffff;
