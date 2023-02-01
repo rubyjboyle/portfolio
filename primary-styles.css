@@ -387,9 +387,19 @@
   background-color: #6792A8;
   display: flex;
   font-family: 'Karla', sans-serif;
+  justify-content: center;
+  padding: 24px;
+  color: #ffffff;
 }
+
 .course-description {
   font-size: 30px;
+  margin: auto;
+}
+
+.course-description__text {
+  max-width: 600px;
+  margin: auto;
 }
 /* footer section */
 
