@@ -510,7 +510,13 @@
   font-family: 'Karla', sans-serif;
   color: #000000;
 }
+.project-button {
+  color: #000000;
+}
 
+.project-button__icon {
+  font-size: 15px!important;
+}
 
 
 
