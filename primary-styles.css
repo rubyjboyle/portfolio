@@ -388,7 +388,7 @@
   display: flex;
   font-family: 'Karla', sans-serif;
   justify-content: center;
-  padding: 24px;
+  padding: 40px;
   color: #ffffff;
 }
 
@@ -425,6 +425,7 @@
 .class-content__img {
   width: 100%;
   max-width: 100px;
+  padding: 30px;
 }
 
 .class-content__text{
