@@ -428,7 +428,9 @@
 }
 
 .class-content__text{
-  font-size: 30px;
+  font-size: 25px;
+  max-width: 200px;
+  text-align: center;
 } 
 
 /* footer section */
