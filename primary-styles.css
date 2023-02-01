@@ -475,6 +475,38 @@
   margin-bottom: 0;
 }
 
+.project-profile {
+  margin: auto;
+  text-align: center;
+}
+.project-profile__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.project-profile__img {
+  max-width: 800px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.project-profile__img-wrapper {
+  display: flex;
+} 
+.project-profile__img--small {
+  max-width: 400px;
+}
+.project-profile__img--mobile {
+  max-width: 300px;
+}
+.project-profile__link {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+}
+
+
+
+
 
 
 
