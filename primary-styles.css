@@ -383,8 +383,14 @@
   color: #000000;
 }
 
-
-
+.course {
+  background-color: #6792A8;
+  display: flex;
+  font-family: 'Karla', sans-serif;
+}
+.course-description {
+  font-size: 30px;
+}
 /* footer section */
 
 .footer-section {
