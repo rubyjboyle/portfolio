@@ -400,11 +400,13 @@
 .course-description {
   font-size: 30px;
   margin: auto;
+  color: #ffffff;
 }
 
 .course-description__text {
   max-width: 600px;
   margin: auto;
+
 }
 
 /* uni projects */
