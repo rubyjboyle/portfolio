@@ -395,6 +395,7 @@
   justify-content: center;
   padding: 60px;
   color: #ffffff;
+  flex-wrap: wrap;
 }
 
 .course-description {
@@ -425,6 +426,7 @@
 .class-content {
   display: flex;
   margin: 20px;
+  flex-wrap: wrap;
 }
 
 .class-content__module {
