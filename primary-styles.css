@@ -465,21 +465,11 @@
   color: #000000;
 } 
 
-/* .class-content__container {
+.class-content__container {
   position: relative;
   width: 100%;
   overflow: hidden;
   padding-top: 56.25%;
-} */
-
-.class-content__container,
-.class-content__container iframe {
-    width: 100%;
-    height: 100%;
-    
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
 }
 
 .class-content__iframe {
