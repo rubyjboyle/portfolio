@@ -434,6 +434,10 @@
   font-family: 'Karla', sans-serif;
 }
 
+.class--iframes {
+  display: block!important;
+}
+
 .class-content {
   display: flex;
   margin: 20px;
