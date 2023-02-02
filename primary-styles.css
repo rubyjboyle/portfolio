@@ -482,62 +482,7 @@
     box-sizing: border-box;
 }
 
-/*
-    Due to iOS WebKit bug an iframe content cannot be scrolled, because WebKit renders entire iframe content:
-    https://bugs.webkit.org/show_bug.cgi?id=155198
-    (still not resolved on iOS11)
-    The workaround is to scroll an div container content with full iframe rendered inside.
-*/
-
-.scroll {
-  overflow: scroll !important;
-  -webkit-overflow-scrolling: touch !important;
-}
-
-/* 2.4. Resolving iframe and container double scrollbars on desktop browsers (rather obligatory) */
-
-.no-scrollbar {
-  position: relative;
-}
-
-.no-scrollbar iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.no-scrollbar {
-  /* Hide scrollbars in IE Edge */
-  /* Autohiding is needed inside iframe document */
-  /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
-  /* In the parent iframe container we don't want any scrollbars */
-  -ms-overflow-style: none;
-}
-
-/* 3. Scale non-RWD iframe content (optional) */
-
-/* Warning! iOS 11 Safari crashes on two-fingers zoom of a page with scaled iframe */
-
-.scale {   
-  -ms-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-  transform-origin: 0 0;    
-}
-
-.scale.x2 {
-  width: 200% !important;
-  height: 200% !important;
-  
-  -ms-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  -o-transform: scale(0.5);
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
-}
-
-/* .class-content__iframe {
+.class-content__iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -545,7 +490,7 @@
   right: 0;
   height: 100%;
   border: none;
-} */
+}
 
 
 
