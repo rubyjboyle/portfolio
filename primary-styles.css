@@ -173,6 +173,14 @@
   padding: 0;
 }
 
+@media only screen and (max-width: 1000px) {
+  .third-section__text--padding  {
+    padding: 0;
+    font-size: 20px;
+  }
+} 
+
+
 .third-section__text--subtitle {
   padding-bottom: 20px;
   font-size: 30px;
