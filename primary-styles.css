@@ -515,6 +515,12 @@
 }
 .project-button {
   color: #000000;
+  margin: auto;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #B9D1E6;
+  padding: 10px 30px;
+  border-radius: 25px;
 }
 
 .project-button__icon {
