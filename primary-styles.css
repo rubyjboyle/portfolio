@@ -460,6 +460,10 @@
   color: #000000;
 } 
 
+.class-content__iframe{
+  width: auto;
+}
+
 
 
 
