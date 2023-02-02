@@ -436,6 +436,7 @@
 
 .class--iframes {
   display: block!important;
+  padding:0;
 }
 
 .class-content {
