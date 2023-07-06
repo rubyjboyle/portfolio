@@ -16,6 +16,7 @@
   top: 0;
   width: 100%;
   left: 0;
+  z-index: 1;
 }
 
 .sticky + .content {
@@ -23,7 +24,7 @@
 }
 
 .header-section__name {
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -37,7 +38,8 @@
 
 
 .header-section__name-title {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 .header-section__name-link {
@@ -53,6 +55,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  padding-left: 0;
 }
 
 
@@ -69,6 +72,7 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -97,6 +101,63 @@
   text-decoration: underline;
 }
 
+.landing-intro {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 0;
+  background-color: #FDEFDD;
+}
+
+.landing-intro__left {
+  padding-left: 170px;
+}
+
+.landing-intro__img {
+  height: 100vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.landing-intro__title {
+  font-family: 'Gloock', serif;
+  font-size: 60px;
+  color: #C24124;
+  margin: 0;
+}
+
+.landing-intro__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  color: #C24124;
+  margin: 5px 0 25px 0;
+}
+
+.landing-intro__button {
+  text-decoration: none;
+  color: #C24124;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  border: 1px solid #C24124;
+  border-radius: 50px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .landing-intro {
+    flex-direction: column;
+  }
+  .landing-intro__text {
+    font-size: 30px;
+  }
+} 
+
+
+
 .second-section {
   display: flex;
   max-width: 1200px;
@@ -115,37 +176,25 @@
   font-size: 50px;
 }
 
-@media only screen and (max-width: 768px) {
-  .second-section__text  {
-   font-size: 35px;
-   margin-bottom: 20px;
-  }
-} 
+
 
 .second-section__text-intro {
-  font-family: 'Bodoni Moda', serif;
-  font-weight: bold;
-  margin: 0;
+  font-family: 'Gloock', serif;
+  font-size: 60px;
+  color: #C24124;
+  margin: 10px;
 }
 
-.second-section__text-title {
-  font-family: 'Bodoni Moda', serif;
-  font-style: italic;
-  margin: 0;
-}
 
-.second-section__img {
-  max-width: 500px;
-  border-radius: 250px;
-  border: 5px solid #B9D1E6;
-  width: 100%;
-}
-
-@media only screen and (max-width: 1000px) {
-  .second-section__img {
-    max-width: 250px;
+@media only screen and (max-width: 768px) {
+  .second-section__text  {
+   margin-bottom: 20px;
+  }
+  .second-section__text-intro {
+    font-size: 40px;
   }
 } 
+
 
 @media only screen and (max-width: 1000px) {
   .second-section {
@@ -154,35 +203,37 @@
 } 
 
 .third-section {
-  background-image: url(images/feet.jpg);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  background-image: url(/images/windows-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .third-section {
+    flex-direction: column;
+  }
+} 
+
 .third-section__text {
-  font-size: 70px;
-  padding: 135px;
-  text-align: center;
-  margin: auto;
-  color: #ffffff;
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Gloock', serif;
+  font-size: 50px;
+  color: #C24124;
 }
 
 .third-section__text--padding {
   padding: 0;
 }
 
-@media only screen and (max-width: 1000px) {
-  .third-section__text--padding  {
-    padding: 0!important;
-    font-size: 30px!important;
+@media only screen and (max-width: 700px) {
+  .third-section__text  {
+    font-size: 40px;
   }
 } 
-
-
-
-
 
 .third-section__text--subtitle {
   padding-bottom: 20px;
@@ -196,6 +247,18 @@
   }
 } 
 
+.fourth-section {
+  background-image: url(/images/feet.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.fourth-section__title {
+  font-family: 'Gloock', serif;
+  font-size: 50px;
+  color: #C24124;
+}
 
 
 
@@ -232,17 +295,11 @@
   margin: 70px auto;
   text-align: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
   flex-direction: column;
 }
 
-.landing-intro__img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    margin-top: 40px;
-}
+
 
 @media only screen and (min-width: 768px) {
   .about-me {
@@ -253,7 +310,7 @@
 .about-me__text {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 50px;
 }
 
 .about-me__text-info {
@@ -266,9 +323,10 @@
 }
 
 .about-me__text-title {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 65px;
   text-align: left;
+  font-family: 'Gloock', serif;
+  font-size: 60px;
+  color: #C24124;
   margin: 10px;
 }
 
@@ -288,7 +346,7 @@
   margin: auto;
   width: 100%;
   border-radius: 250px;
-  border: 5px solid #A56E4A;
+  border: 5px solid #6792A8;
 }
 
 @media only screen and (max-width: 768px) {
@@ -574,7 +632,7 @@
 
 /* footer section */
 .footer-section {
-  background-color: #A56E4A;
+  background-color: #50798B;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -585,13 +643,13 @@
 @media only screen and (max-width: 1000px) {
   .footer-section  {
     padding: 15px;
-    text-align: center;
+    text-align: left;
   }
 } 
 
 
 .footer-section__name {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
 }
 
@@ -620,6 +678,8 @@
     font-size: 15px;
     padding-top: 5px;
     flex-direction: column;
+    align-items: start;
+    margin-bottom: 10px;
   }
 } 
 
