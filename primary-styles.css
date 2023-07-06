@@ -253,10 +253,10 @@
 } 
 
 .fourth-section {
-  background-image: url(/images/feet.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  display: flex;
   text-align: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fourth-section__title {
