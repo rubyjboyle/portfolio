@@ -266,13 +266,17 @@
   padding-left: 170px;
 }
 
+.projects-overview {
+  display: flex;
+}
+
 
 
 
 
 
 /* old */
-.projects__item-image {
+/* .projects__item-image {
   max-width: 600px;
   width: 100%;
   border-radius: 10px;
@@ -295,7 +299,9 @@
 }
 .projects__details-link:hover {
   text-decoration: underline;
-}
+} */
+
+/* about me section */
 .about-me {
   display: flex;
   margin: 70px auto;
@@ -388,7 +394,7 @@
   font-size: 25px;
   max-width: 1140px;
 }
-
+/* 
 .projects-section {
   display: flex;
   flex-direction: column;
@@ -405,9 +411,9 @@
   font-size: 60px;
   margin-bottom: 0;
   color: #ffffff;
-}
+} */
 
-.projects-section__title--black {
+/* .projects-section__title--black {
   color: #000000;
 }
 
@@ -440,28 +446,8 @@
   flex-direction: column;
   margin: 50px;
   align-items: center;
-}
+} */
 
-.projects-section__explore-img {
-  max-width: 200px;
-  width: 100%;
-}
-
-.projects-section__explore-img--large {
-  max-width: 300px;
-}
-
-.projects-section__explore-name {
-  font-family: 'Karla', sans-serif;
-  margin: 20px;
-  font-size: 30px;
-  color: #ffffff;
-  max-width: 200px;
-}
-
-.projects-section__explore-name--black {
-  color: #000000;
-}
 
 .course {
   background-color: #6792A8;
@@ -552,7 +538,7 @@
 
 
 
-/* shop projects */
+/* shop projects
 .project-info {
   display: flex;
   margin: 120px auto;
@@ -627,7 +613,7 @@
 .project-button__icon {
   font-size: 15px!important;
   margin: 5px;
-}
+} */
 
 
 
