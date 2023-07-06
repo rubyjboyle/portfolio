@@ -207,11 +207,16 @@
   justify-content: space-between;
   margin: auto;
   max-width: 1200px;
-  background-image: url(/images/windows-background.jpg);
+  padding: 50px;
+}
+
+.third-section__background {
+  background-image: url(https://rubyboyle.com/images/windows-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 @media only screen and (max-width: 768px) {
   .third-section {
