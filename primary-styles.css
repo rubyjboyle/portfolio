@@ -150,9 +150,17 @@
 @media only screen and (max-width: 900px) {
   .landing-intro {
     flex-direction: column;
+    min-height: 120vh;
   }
   .landing-intro__text {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .landing-intro__img {
+    max-height: 70vh;
+  }
+  .landing-intro__left {
+    padding-left: 0;
+    margin: auto;
   }
 } 
 
@@ -259,6 +267,10 @@
   align-items: center;
   background-color: #FDEFDD;
 }
+.fourth-section__img {
+  width: 100%;
+  max-width: fit-content;
+}
 
 .fourth-section__title {
   font-family: 'Gloock', serif;
@@ -271,6 +283,22 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .projects-overview {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourth-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourth-section__title {
+    padding-left: 0;
+  }
+} 
 
 .projects-type__title {
   font-family: 'Montserrat', sans-serif;
@@ -306,7 +334,7 @@
 }
 
 .projects-overview__img {
-  max-width: 150px;
+  max-width: 125px;
 }
 
 
