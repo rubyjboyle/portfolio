@@ -85,7 +85,7 @@
   margin: auto;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  background-color: #B9D1E6;
+  background-color: #FDEFDD;
   padding: 10px 30px;
   border-radius: 25px;
   color: #000000;
@@ -637,8 +637,7 @@
 
 /* footer section */
 .footer-section {
-  background-color: #50798B;
-  color: #ffffff;
+  background-color: #FDEFDD;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -690,7 +689,7 @@
 
 .footer-section__content-link {
   padding-right: 40px;
-  color: #ffffff;
+  color: #000000;
 }
 
 @media only screen and (max-width: 1000px) {
