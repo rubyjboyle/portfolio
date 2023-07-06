@@ -157,6 +157,7 @@
   }
   .landing-intro__img {
     max-height: 70vh;
+    width: 100%;
   }
   .landing-intro__left {
     padding-left: 0;
