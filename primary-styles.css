@@ -149,6 +149,11 @@
   cursor: pointer;
 }
 
+.landing-intro__button:hover {
+  background-color: #C24124;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 900px) {
   .landing-intro {
     flex-direction: column;
