@@ -614,6 +614,21 @@
 
 
 
+/*projects*/
+
+.banner-section {
+  display: flex;
+
+  &-title {
+    font-family: 'Karla', sans-serif;
+  }
+  &-img {
+    max-width:800px;
+    width: 100%
+  }
+}
+
+
 
 
 /* shop projects
