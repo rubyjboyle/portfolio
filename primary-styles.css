@@ -618,17 +618,16 @@
 
 .banner-section {
   display: flex;
-
-  &-title {
-    font-family: 'Karla', sans-serif;
-  }
-  &-img {
-    max-width:800px;
-    width: 100%
-  }
 }
 
+.banner-section__title {
+  font-family: 'Karla', sans-serif;
+}
 
+.banner-section__img {
+  max-width:800px;
+  width: 100%
+}
 
 
 /* shop projects
