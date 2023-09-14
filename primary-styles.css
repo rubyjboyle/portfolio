@@ -360,6 +360,10 @@
   flex-direction: column;
 }
 
+.about-me__wrapper {
+  background-color:#FDEFDD;
+  padding: 10px;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -408,6 +412,14 @@
   width: 100%;
   border-radius: 250px;
   border: 5px solid #6792A8;
+}
+
+.about-me__img-orange {
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+  border-radius: 250px;
+  border: 5px solid #C24124;
 }
 
 @media only screen and (max-width: 768px) {

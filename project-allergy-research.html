@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Boyle's Portfolio</title>
+    <meta name="description" content="Allergy Clinic Research">
+    <meta name="author" content="Ruby">
+    <link rel="stylesheet" href="primary-styles.css">
+    <link rel="icon" type="image/png" href="/images/favicon-new.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+<body class="body-section">
+
+  <div class="header-section" id="myHeader">
+    
+    <div class="header-section__name">
+      <a class="header-section__name-link" href="/index.html">
+        <h1 class="header-section__name-title">ruby's portfolio</h1>
+      </a>
+    </div>
+  
+    <nav class="main-navigation">
+      <ul class="main-navigation__list">
+        <li><a class="main-navigation__list-link" href="/portfolio.html">projects</a></li>
+        <li><a class="main-navigation__list-link" href="/about.html">about</a></li>
+      </ul>
+    </nav>
+
+    <a class="main-navigation__list-button" target="_blank" href="/images/Ruby-Boyle-Resume.pdf">resume</a>
+
+  </div>
+
+<div class="content">
+
+    <div class="banner-section">
+        <p class="banner-section__title">allergy clinic research</p>
+        <img class="banner-section__img" src="images/varian-banner.png">
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">background</h2>
+        <p class="project-section__text">Varian is a company that makes hardware and software for radiation therapy. This project was the capstone for a Master in HCI and Design at UC Irvine. Varian worked with our team as contractors to find a solution for motion management that occurs during radiation therapy. </p>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">problem</h2>
+        <p class="project-section__text">Develop a concept for a motion management solution that can be tailored based on different clinical needs and budgets.</p>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">method</h2>
+        <img class="project-section__img" src="images/varian-method.png">
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">literature review</h2>
+        <p class="project-section__text">In the literature review, we compiled information about:</p>
+
+        <ul class="project-section__text">
+            <li>Cancer as a disease</li>
+            <li>Radiation therapy as a practice</li>
+            <li>The forms of radiation therapy in use today</li>
+            <li>The importance of precision and dose in radiation therapy</li>
+            <li>Motion Management solutions</li>
+            <li>Varian's Motion Management technology and its applications</li>
+            <li>The limitations of Varian's existing motion management solution</li>
+            <li>Competitors in the field</li>
+        </ul>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">competitive analysis</h2>
+        <img class="project-section__img" src="images/varian-competitive-analysis.png">
+        <img class="project-section__img" src="images/varian-insights.png">
+    </div>
+      
+    <div class="project-section">
+        <h2 class="project-section__title">varian labs</h2>
+        <img class="project-section__img" src="images/varian-lab.png">
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">clinician interviews</h2>
+        <p class="project-section__text">To begin our stakeholder interview journey, we leveraged the findings from our literature review to identify the key stakeholders involved in the radiation therapy process. We knew that we would need to interview radiation oncologists, radiation therapists, physicists and dosimetrists to get a sense of the full radiation therapy picture. With these roles identified, we worked with a radiation therapist at Mayo Clinic to recruit participants from each of these professional backgrounds for our research. In total, we recruited and interviewed; four radiation therapists, one radiation oncologist, two physicists, one dosimetrist, one veterinary radiation oncologist.</p>
+        <img class="project-section__img" src="images/clinic-interviews.png">
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-section__title">models</h2>
+        <img class="project-section__img" src="images/varian-time-model.png">
+        <img class="project-section__img" src="images/empathy-map-radiation-therapist.png">
+        <img class="project-section__img" src="images/empathy-map-patient.png">
+    </div>
+
+
+
+   
+   <!-- create template to plug in each project content -->
+   <section class="footer-section">
+
+    <p class="footer-section__name">ruby's portfolio</p>
+
+    <div class="footer-section__content">
+      <div class="footer-section__content-info">
+        <a class="footer-section__content-link" href="/portfolio.html">projects</a>
+        <a class="footer-section__content-link" href="/about.html">about</a>
+        <a class="footer-section__content-link" target="_blank" href="/images/Ruby-Boyle-Resume.pdf">resume</a>
+      </div>
+      <div>
+        <a class="footer-section__link" target="_blank" href="https://www.linkedin.com/in/ruby-boyle-668285112/"><img class="footer-section__img" alt="LinkedIn Icon" src="images/linkedin-circle.png"></a>
+        <a class="footer-section__link" target="_blank" href="https://github.com/rubyjboyle"> 
+          <img class="footer-section__img" alt="Github Icon" src="images/github-circle.png">
+        </a>
+      </div>
+    </div>
+
+
+  </section>
+</div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
