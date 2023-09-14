@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruby Boyle's Portfolio</title>
-    <meta name="description" content="Projects">
+    <meta name="description" content="Allergy Clinic Research">
     <meta name="author" content="Ruby">
     <link rel="stylesheet" href="primary-styles.css">
     <link rel="icon" type="image/png" href="/images/favicon-new.png">
@@ -13,8 +13,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
   </head>
 
 <body class="body-section">
@@ -40,57 +40,30 @@
 
 <div class="content">
 
-  <div class="fourth-section">
-    <p class="fourth-section__title">projects</p>
-    <img class="fourth-section__img" src="images/projects-header.png">
-  </div>
-
-
-  <p class="projects-type__title">healthcare</p>
-  <div class="projects-overview">
-
-    <div class="projects-overview__item red-border">
-      <img class="projects-overview__img" src="images/varian-icon.png">
-      <a class="projects-overview__name" href="/project-simphony.html">breathing healthcare app</a>
+    <div class="banner-section">
+        <p class="banner-section__title">thyra app concept</p>
+        <img class="banner-section__img" src="images/varian-banner.png">
     </div>
 
-    <div class="projects-overview__item blue-border">
-      <img class="projects-overview__img" src="images/badge-icon.png">
-      <a class="projects-overview__name" href="/project-allergy-research.html">allergy clinic research</a>
+    <div class="project-section">
+        <h2 class="project-section__title">background</h2>
+        <p class="project-section__text">For a graduate course, User Needs Analysis, we learned to take a true ethnographic perspective on the real world contexts enables a multi-layered perspective on what the various issues might be before attempting to solve them. </p>
     </div>
 
-    <div class="projects-overview__item red-border">
-      <img class="projects-overview__img" src="images/thyra-icon.png">
-      <a class="projects-overview__name" href="/project-thyra-app.html">thyroid management app</a>
+
+    <div class="project-section">
+        <h2 class="project-section__title">method</h2>
+        <img class="project-section__img" src="images/thyra_app.jpg">
     </div>
 
-  </div>
-
-
-  <p class="projects-type__title">e-commerce</p>
-  <div class="projects-overview">
-
-    <div class="projects-overview__item blue-border">
-      <img class="projects-overview__img" src="images/wallet-icon.png">
-      <a class="projects-overview__name" href="#">rewards on shop.com</a>
-    </div>
-
-    <div class="projects-overview__item red-border">
-      <img class="projects-overview__img" src="images/cart-icon.png">
-      <a class="projects-overview__name" href="#">products on shop.com</a>
-    </div>
-
-    <div class="projects-overview__item blue-border">
-      <img class="projects-overview__img" src="images/search-icon.png">
-      <a class="projects-overview__name" href="#">search on shop.com</a>
-    </div>
-
-  </div>
 
 
 
 
-  <section class="footer-section">
+
+   
+   <!-- create template to plug in each project content -->
+   <section class="footer-section">
 
     <p class="footer-section__name">ruby's portfolio</p>
 
@@ -98,7 +71,7 @@
       <div class="footer-section__content-info">
         <a class="footer-section__content-link" href="/portfolio.html">projects</a>
         <a class="footer-section__content-link" href="/about.html">about</a>
-        <a class="footer-section__content-link" href="https://rubyboyle.com/images/Ruby-Boyle-Resume.pdf">resume</a>
+        <a class="footer-section__content-link" target="_blank" href="/images/Ruby-Boyle-Resume.pdf">resume</a>
       </div>
       <div>
         <a class="footer-section__link" target="_blank" href="https://www.linkedin.com/in/ruby-boyle-668285112/"><img class="footer-section__img" alt="LinkedIn Icon" src="images/linkedin-circle.png"></a>
@@ -108,23 +81,24 @@
       </div>
     </div>
 
+
   </section>
 </div>
 
-<script>
-  window.onscroll = function() {myFunction()};
+  <script>
+    window.onscroll = function() {myFunction()};
 
-  var header = document.getElementById("myHeader");
-  var sticky = header.offsetTop;
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
 
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
     }
-  }
-</script>
+  </script>
 
 </body>
 </html>
