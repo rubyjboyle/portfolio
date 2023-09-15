@@ -506,8 +506,6 @@
 .class-content__module {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 40px;
 }
 
 .class-content__img {
@@ -517,9 +515,8 @@
 }
 
 .class-content__text{
-  font-size: 20px;
-  max-width: 200px;
-  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
   color: #000000;
 } 
 
